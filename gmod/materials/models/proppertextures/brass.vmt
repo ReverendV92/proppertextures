@@ -1,0 +1,29 @@
+
+vertexlitgeneric
+{
+
+	$basetexture models/proppertextures/metal/brass/acrylic_d
+	$bumpmap models/proppertextures/metal/aluminum_nrm
+
+	$phong 1
+	$phongboost 5
+	$phongexponent 10
+	$phongfresnelranges "[ 0.25 1 4 ]"
+
+	$blendtintbybasealpha 1
+
+	$color2 "{ 255 255 255 }"
+	proxies
+	{
+
+		equals
+		{
+
+			srcvar1 $color2
+			resultvar $color
+
+		}
+	
+	}
+
+}
